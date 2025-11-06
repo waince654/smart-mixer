@@ -101,7 +101,7 @@ const Benefitsection = () => {
               </div>
 
               {/* Detail Paragraph */}
-              <p className="text-blue-900 leading-relaxed text-sm sm:text-base md:text-md lg:text-lg font-sans-serif-10px opacity-50">
+              <p className="text-gray-500 leading-relaxed text-sm sm:text-base md:text-md lg:text-lg font-sans-serif-10px opacity-80 ">
                 {item.detail}
               </p>
             </div>

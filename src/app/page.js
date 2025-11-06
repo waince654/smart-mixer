@@ -7,6 +7,7 @@ import Section from "./component/hero/Section";
 import Benefitsection from "./component/hero/Benefit-section";
 import Sceneriosection from "./component/hero/Scenerio-section";
 import Uptodate from "./component/hero/Up-todate";
+import Faq from "./component/hero/Faq";
 
 const Page = () => {
   return (
@@ -21,6 +22,7 @@ const Page = () => {
       <Benefitsection />
       <Sceneriosection />
       <Uptodate />
+      <Faq/>
     </div>
       <div className="mt-3">my name is waince</div>
     </>
