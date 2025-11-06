@@ -8,6 +8,7 @@ import Benefitsection from "./component/hero/Benefit-section";
 import Sceneriosection from "./component/hero/Scenerio-section";
 import Uptodate from "./component/hero/Up-todate";
 import Faq from "./component/hero/Faq";
+import Footer from "./component/Footer";
 
 const Page = () => {
   return (
@@ -23,6 +24,7 @@ const Page = () => {
       <Sceneriosection />
       <Uptodate />
       <Faq/>
+      <Footer />
     </div>
       <div className="mt-3">my name is waince</div>
     </>
