@@ -45,7 +45,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="/blog"
               className="inline-block hover:text-indigo-600 hover:-translate-y-1 transition"
             >
               Blog
