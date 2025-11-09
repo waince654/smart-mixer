@@ -3,103 +3,103 @@ import Image from "next/image";
 const Section = () => {
   return (
     <>
-      <>
-        <div className="bg-gradient-to-b from-blue-50 to-blue-0 min-h-screen">
-          <div className="px-4 sm:px-8 lg:px-16 py-8 md:py-12">
-            <div className="relative mt-9 flex justify-center">
-              <Image
-                src="/lines.svg"
-                alt="lines"
-                width={300}
-                height={300}
-                className="w-auto h-auto"
-              />
-            </div>
+    
+      <div className="bg-gradient-to-b from-blue-50 to-blue-0 min-h-screen">
+        <div className="px-4 sm:px-8 lg:px-16 py-8 md:py-12">
+          
+          <div className="relative mt-9 flex justify-center">
+            <Image
+              src="/lines.svg"
+              alt="lines"
+              width={300}
+              height={300}
+              className="w-auto h-auto"
+            />
+          </div>
 
-            <h3 className="text-blue-950 mt-6 font-sans-serif-32px text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center md:text-left">
-              What is SmartMixer?
-            </h3>
+          <h3 className="text-blue-950 mt-6 font-sans-serif-32px text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center md:text-left">
+            What is SmartMixer?
+          </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6">
-              {/* LEFT: Video */}
-              <div className="p-2 md:p-4">
-                <section className="flex justify-center items-start">
-                  <div className="w-full max-w-3xl">
-                    {/* Responsive embed: 16:9 on small screens, taller on md+ */}
-                    <div className="relative pt-[56.25%] md:pt-[102%] overflow-hidden rounded-2xl shadow-2xl">
-                      <iframe
-                        className="absolute inset-0 w-full h-full"
-                        src="https://www.youtube.com/embed/1RZSbFXUVdw?si=m53tttlO42OYC7PI"
-                        title="YouTube Video"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                      ></iframe>
-                    </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6">
+            {/* LEFT: Video */}
+            <div className="p-2 md:p-4">
+              <section className="flex justify-center items-start">
+                <div className="w-full max-w-3xl">
+                  {/* Responsive embed: 16:9 on small screens, taller on md+ */}
+                  <div className="relative pt-[56.25%] md:pt-[102%] overflow-hidden rounded-2xl shadow-2xl">
+                    <iframe
+                      className="absolute inset-0 w-full h-full"
+                      src="https://www.youtube.com/embed/1RZSbFXUVdw?si=m53tttlO42OYC7PI"
+                      title="YouTube Video"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    ></iframe>
                   </div>
-                </section>
-              </div>
-
-              {/* RIGHT: Text column */}
-              <div className="relative w-full md:aspect-[477/703] max-w-full md:max-w-[477px]   ">
-                <div className="absolute inset-0 flex flex-col p-6 md:p-8">
-                  <p className="text-blue-900 font-sans-serif-18px text-justify leading-relaxed tracking-wider mt-2 text-sm sm:text-base md:text-base">
-                    Bitcoin and other Cryptocurrencies are an excellent way to
-                    stay anonymous when you do online purchases, peer-to-Peer
-                    payments and more. However, cryptocurrencies do not afford
-                    you complete anonymity since all activities and transactions
-                    are recorded in the open-source software, called the
-                    blockchain. Meaning, people can check your past transactions
-                    and trace your funds by just entering your Bitcoin address.
-                  </p>
-
-                  <p className="text-blue-900 font-sans-serif-18px text-justify leading-relaxed tracking-wider mt-4 text-sm sm:text-base md:text-base">
-                    When you use cryptocurrencies to buy products online, third
-                    parties can track your transactions and relate it to your
-                    identity, as you need to provide your address and personal
-                    information.
-                  </p>
-
-                  <p className="text-blue-900 font-sans-serif-18px text-justify leading-relaxed tracking-wider mt-4 text-sm sm:text-base md:text-base">
-                    However, you can leave no trace and assume complete
-                    anonymity using Smartmixer. The program allows you to mix
-                    your coins with help of the platform’s pools. This means,
-                    your Cryptocurrencies will be mixed with hundreds of
-                    Bitcoins and other Cryptocurrencies, leading to a guaranteed
-                    confusion of the trail back to the funds' original source.
-                    As a result, you end up with clean, untraceable coins.
-                  </p>
                 </div>
+              </section>
+            </div>
+
+            {/* RIGHT: Text column */}
+            <div className="relative w-full md:aspect-[477/703] max-w-full md:max-w-[477px]   ">
+              <div className="absolute inset-0 flex flex-col p-3 md:p-8">
+                <p className="text-blue-900 font-sans-serif-18px text-justify leading-relaxed tracking-wider mt-2 text-sm sm:text-base md:text-base">
+                  Bitcoin and other Cryptocurrencies are an excellent way to
+                  stay anonymous when you do online purchases, peer-to-Peer
+                  payments and more. However, cryptocurrencies do not afford you
+                  complete anonymity since all activities and transactions are
+                  recorded in the open-source software, called the blockchain.
+                  Meaning, people can check your past transactions and trace
+                  your funds by just entering your Bitcoin address.
+                </p>
+
+                <p className="text-blue-900 font-sans-serif-18px text-justify leading-relaxed tracking-wider mt-4 text-sm sm:text-base md:text-base">
+                  When you use cryptocurrencies to buy products online, third
+                  parties can track your transactions and relate it to your
+                  identity, as you need to provide your address and personal
+                  information.
+                </p>
+
+                <p className="text-blue-900 font-sans-serif-18px text-justify leading-relaxed tracking-wider mt-4 text-sm sm:text-base md:text-base">
+                  However, you can leave no trace and assume complete anonymity
+                  using Smartmixer. The program allows you to mix your coins
+                  with help of the platform’s pools. This means, your
+                  Cryptocurrencies will be mixed with hundreds of Bitcoins and
+                  other Cryptocurrencies, leading to a guaranteed confusion of
+                  the trail back to the funds' original source. As a result, you
+                  end up with clean, untraceable coins.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        {/* smart mixer works section */}
-        <div className="bg-gradient-to-b from-blue-50 to-blue-0 mt-20 sm:mt-16 lg:mt-0">
-          <div className="px-4 sm:px-8 lg:px-16 py-8 md:py-12">
-            <div className="relative mt-5 flex justify-center items-center">
-              <Image
-                src="/lines.svg"
-                alt="lines"
-                width={300}
-                height={300}
-                className="w-auto h-auto"
-              />
-            </div>
+      {/* smart mixer works section */}
+      <div className="bg-gradient-to-b from-blue-50 to-blue-0 mt-20 sm:mt-16 lg:mt-0">
+        <div className="px-4 sm:px-8 lg:px-16 py-8 md:py-12">
+          <div className="relative mt-5 flex justify-center items-center">
+            <Image
+              src="/lines.svg"
+              alt="lines"
+              width={300}
+              height={300}
+              className="w-auto h-auto"
+            />
+          </div>
 
-            <div className="text-center">
-              <h3 className="text-blue-950 mt-6 font-sans-serif-25px text-xl sm:text-2xl md:text-3xl lg:text-[42px] font-bold ">
-                How SmartMixer Works?
-              </h3>
-              <p className="text-lg font-light text-blue-500 mt-4 sm:mt-6 font-sans-serif-15px">
-                Receive clean and untraceable Cryptos in 3 simple steps!
-              </p>
-            </div>
+          <div className="text-center">
+            <h3 className="text-blue-950 mt-6 font-sans-serif-25px text-xl sm:text-2xl md:text-3xl lg:text-[42px] font-bold ">
+              How SmartMixer Works?
+            </h3>
+            <p className="text-lg font-light text-blue-500 mt-4 sm:mt-6 font-sans-serif-15px">
+              Receive clean and untraceable Cryptos in 3 simple steps!
+            </p>
           </div>
         </div>
-      </>
+      </div>
 
       {/*boxes step 1,2,3*/}
 

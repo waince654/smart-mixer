@@ -1,7 +1,12 @@
 "use client";
+import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import { PiGreaterThanBold } from "react-icons/pi";
+import { Link as LinkIcon } from "lucide-react";
+
 
 const faqData = [
   {
@@ -50,20 +55,22 @@ export default function FaqSection() {
         <div className="px-4 sm:px-8 lg:px-16 py-8 md:py-12">
           <div className="relative mt-5 flex justify-center items-center gap-2">
             <div className="mt-5">
-            <Image
-              src="/lines.svg"
-              alt="lines"
-              width={300}
-              height={300}
-              className="w-auto h-auto"
-            />
+              <Image
+                src="/lines.svg"
+                alt="lines"
+                width={300}
+                height={300}
+                className="w-auto h-auto"
+              />
             </div>
-            <p className="text-blue-400 mt-6 font-sans-serif-9px text-xl sm:text-2xl md:text-3xl lg:text-[25px] font-bold ">FAQ's</p>
+            <p className="text-blue-400 mt-6 font-sans-serif-9px text-xl sm:text-2xl md:text-3xl lg:text-[25px] font-bold ">
+              FAQ's
+            </p>
           </div>
 
           <div className="text-center">
             <h3 className="text-blue-950 mt-6 font-sans-serif-25px text-md sm:text-xl md:text-2xl lg:text-[25px] font-bold ">
-             Frequently Asked Questions
+              Frequently Asked Questions
             </h3>
           </div>
         </div>
@@ -106,7 +113,7 @@ export default function FaqSection() {
                     ? { height: "auto", opacity: 1 }
                     : { height: 0, opacity: 0 }
                 }
-                transition={{ duration:0.9 }}
+                transition={{ duration: 0.9 }}
                 className="overflow-hidden text-gray-500 leading-relaxed text-sm sm:text-base md:text-md lg:text-lg font-sans-serif-10px mt-2 space-y-2"
               >
                 {Array.isArray(faq.answer) ? (
@@ -122,6 +129,29 @@ export default function FaqSection() {
             </div>
           </div>
         ))}
+      </div>
+      {/* Read full FAQ button */}
+      <div className="flex justify-center mt-8 items-center min-h-[18vh]">
+        <button className="px-10 py-1 lg:py-3 text-lg font-semibold text-white bg-blue-300 rounded-4xl hover:bg-gray-500 transition-all duration-300 shadow-md active:scale-95 sm:px-10 sm:py-4">
+          Read Full FAQ
+        </button>
+       
+      </div>
+       <div className="relative mt-5 flex justify-center items-center gap-2">
+        <h4 className="text-blue-900 mt-6 font-sans-serif-16px text-xl sm:text-2xl md:text-3xl lg:text-[35px] font-bold ">
+                   Do Something for Your Privacy
+        </h4>
+        </div>
+        <div className="relative mt-4 flex justify-center items-center gap-2">
+        <p className="text-center text-blue-600  mt-13 max-w-2xl mx-auto text-xl sm:text-2xl md:text-3xl  ">Be Smart, Be Anonymous!</p>
+        </div>
+        {/* mix my crpto  button */}
+          <div className="flex justify-center mt-8 items-center min-h-[18vh]">
+        <Link href="/#">  <button className=" flex px-25 py-1 lg:py-3 gap-9 text-lg font-semibold text-white bg-cyan-300 rounded-4xl hover:-translate-y-2 transition-all duration-300 shadow-md active:scale-95 sm:px-20 sm:py-4">
+         
+          Mix My Crypto  <span className="mt-2"> <PiGreaterThanBold /></span>
+        </button></Link>
+       
       </div>
     </section>
   );

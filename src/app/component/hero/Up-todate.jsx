@@ -64,13 +64,13 @@ const Uptodate = () => {
                       className="w-full h-auto object-cover opacity-600"
                     />
                     <span className="text-[11px] sm:text-sm leading-none text-blue-700">
-                      15 Nov 2025
+                      Juanary 17, 2020
                     </span>
                   </a>
 
                   <span className="flex items-center gap-1 text-[11px] sm:text-sm leading-none text-blue-700">
                     <MdRemoveRedEye className="w-4 h-4 sm:w-5 sm:h-5" />
-                    <span className="font-medium">123</span>
+                    <span className="font-medium">329</span>
                   </span>
                 </div>
                 {/* paragraph */}
@@ -118,13 +118,13 @@ const Uptodate = () => {
                       className="w-full h-auto object-cover opacity-600"
                     />
                     <span className="text-[11px] sm:text-sm leading-none text-blue-700">
-                      15 Nov 2025
+                     Juanary 10, 2020
                     </span>
                   </a>
 
                   <span className="flex items-center gap-1 text-[11px] sm:text-sm leading-none text-blue-700">
                     <MdRemoveRedEye className="w-4 h-4 sm:w-5 sm:h-5" />
-                    <span className="font-medium">123</span>
+                    <span className="font-medium">3039</span>
                   </span>
                 </div>
                 {/* paragraph */}
@@ -172,13 +172,13 @@ const Uptodate = () => {
                       className="w-full h-auto object-cover opacity-600"
                     />
                     <span className="text-[11px] sm:text-sm leading-none text-blue-700">
-                      15 Nov 2025
+                    Juanary 03, 2020
                     </span>
                   </a>
 
                   <span className="flex items-center gap-1 text-[11px] sm:text-sm leading-none text-blue-700">
                     <MdRemoveRedEye className="w-4 h-4 sm:w-5 sm:h-5" />
-                    <span className="font-medium">123</span>
+                    <span className="font-medium">4759</span>
                   </span>
                 </div>
                 {/* paragraph */}

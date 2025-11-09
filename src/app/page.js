@@ -13,7 +13,7 @@ import Footer from "./component/Footer";
 const Page = () => {
   return (
     <>
-    <div className=" min-h-screen   w-[95%] mx-auto ">
+    <div className=" min-h-screen w-[85%] mx-auto items-center justify-center">
       <Header />
       <Herointro />
       <Logoarea />
