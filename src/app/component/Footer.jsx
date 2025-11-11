@@ -169,7 +169,7 @@ export default function Footer() {
                     Services
                   </a>
                   <a
-                    href="#"
+                    href="/blog"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
                     Blog

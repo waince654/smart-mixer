@@ -114,7 +114,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="block hover:text-indigo-600">
+              <a href="/blog" className="block hover:text-indigo-600">
                 Blog
               </a>
             </li>
