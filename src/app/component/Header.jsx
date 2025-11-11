@@ -37,7 +37,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="/faq"
               className="inline-block hover:text-indigo-600 hover:-translate-y-1 transition"
             >
               FAQ
@@ -109,7 +109,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="block hover:text-indigo-600">
+              <a href="/faq" className="block hover:text-indigo-600">
                 FAQ
               </a>
             </li>

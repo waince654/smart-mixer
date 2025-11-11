@@ -151,7 +151,7 @@ export default function Footer() {
                   aria-label="Footer navigation"
                 >
                   <a
-                    href="#"
+                    href="/"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
                     Home
@@ -160,25 +160,25 @@ export default function Footer() {
                     href="#"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
-                    About
+                    Start Mixing
                   </a>
                   <a
                     href="#"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
-                    Services
+                    Referral
                   </a>
                   <a
-                    href="/blog"
+                    href="/faq"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
-                    Blog
+                   FAQ
                   </a>
                   <a
                     href="#"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
-                    Contact
+                   Fees
                   </a>
                 </nav>
 
