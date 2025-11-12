@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Allpagefront = () => {
+const Allpagefront = ({heading}) => {
   return (
     <div>
       <div className="relative w-full">
@@ -22,7 +22,7 @@ const Allpagefront = () => {
             {/*  Heading Section */}
             <div className="mt-6 text-center lg:text-left">
               <h3 className="text-blue-950 font-sans-serif-35px text-xl sm:text-2xl md:text-3xl lg:text-[48px] font-bold">
-                Blog
+               {heading}
               </h3>
             </div>
           </div>

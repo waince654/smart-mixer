@@ -65,7 +65,7 @@ export default function Header2() {
             </li>
             <li>
               <a
-                href="#"
+                href="referral"
                 className="inline-block hover:text-indigo-600 hover:-translate-y-1 transition"
               >
                 Referral
@@ -149,7 +149,7 @@ export default function Header2() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-indigo-600 transition">
+                <a href="/referral" className="hover:text-indigo-600 transition">
                   Referral
                 </a>
               </li>

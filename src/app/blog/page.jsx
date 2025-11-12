@@ -11,7 +11,7 @@ const page = () => {
       <div className=" relative w-full ">
         <Header2 />
       </div>
-      <Allpagefront />
+      <Allpagefront heading="Blog"    />
       <Bloggrid />
       <Belowfaq />
       <Footer />

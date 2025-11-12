@@ -15,9 +15,9 @@ const Belowfaq = () => {
         </div>
         {/* mix my crpto  button */}
           <div className="flex justify-center mt-8 items-center min-h-[18vh]">
-        <Link href="/#">  <button className=" flex lg:px-25 py-1 lg:py-3 gap-9 text-lg font-semibold text-white bg-cyan-300 rounded-4xl hover:-translate-y-2 transition-all duration-300 shadow-md active:scale-95 sm:px-20 sm:py-4">
+        <Link href="/#">  <button className=" flex lg:px-20 py-1 lg:py-3 gap-9 text-xl font-bold text-white bg-cyan-300 rounded-4xl hover:-translate-y-2 transition-all duration-300 shadow-md active:scale-95 sm:px-20 sm:py-4">
          
-          Mix My Crypto  <span className="mt-2"> <PiGreaterThanBold /></span>
+          Mix My Cryptos   <span className="mt-2"> <PiGreaterThanBold /></span>
         </button></Link>
        
       </div>

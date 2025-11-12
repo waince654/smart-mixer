@@ -187,7 +187,7 @@ const Bloggrid = () => {
                 {item.title}
               </h6>
 
-              <div className="flex justify-between items-center text-blue-700 text-[11px] sm:text-sm mt-8">
+              <div className="flex justify-between items-center text-blue-600 text-[11px] sm:text-sm mt-8">
                 <div className="flex items-center gap-2">
                   <img
                     src="/dateimg.svg"
@@ -203,7 +203,7 @@ const Bloggrid = () => {
                 </div>
               </div>
 
-              <p className="text-gray-500 text-sm leading-relaxed mt-8">
+              <p className="text-gray-500 text-md leading-relaxed mt-8">
                 {item.desc}
               </p>
             </div>

@@ -163,7 +163,7 @@ export default function Footer() {
                     Start Mixing
                   </a>
                   <a
-                    href="#"
+                    href="referral"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
                     Referral
