@@ -175,7 +175,7 @@ export default function Footer() {
                    FAQ
                   </a>
                   <a
-                    href="#"
+                    href="/fees"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
                    Fees

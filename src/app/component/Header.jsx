@@ -29,7 +29,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="/fees"
               className="inline-block hover:text-indigo-600 hover:-translate-y-1 transition"
             >
               Fees
@@ -104,7 +104,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="block hover:text-indigo-600">
+              <a href="/fees" className="block hover:text-indigo-600">
                 Fees
               </a>
             </li>
