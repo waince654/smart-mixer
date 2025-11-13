@@ -13,7 +13,7 @@ export default function Header() {
         <ul className="hidden lg:flex space-x-8 font-medium mt-4 text-gray-700">
           <li>
             <a
-              href="#"
+              href="/whymixing"
               className="inline-block hover:text-indigo-600 hover:-translate-y-1 transition"
             >
               Why Mixing
@@ -94,7 +94,7 @@ export default function Header() {
         <div className="lg:hidden bg-white border-t border-gray-200">
           <ul className="flex flex-col space-y-2 p-4 font-medium text-gray-700">
             <li>
-              <a href="#" className="block hover:text-indigo-600">
+              <a href="/whymixing" className="block hover:text-indigo-600">
                 Why Mixing
               </a>
             </li>

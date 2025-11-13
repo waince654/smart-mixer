@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-const Allpagefront = ({heading}) => {
+const Allpagefront = ({heading , para}) => {
   return (
     <div>
       <div className="relative w-full">
-        <div className="w-full h-[40vh] flex items-center bg-gradient-to-b from-blue-0 to-blue-100 lg:mt-10">
+        <div className="w-full h-[60vh] flex items-center bg-gradient-to-b from-blue-0 to-blue-100 lg:mt-2">
           <div className="px-4 sm:px-8 lg:ml-25 lg:px-16 py-8 md:py-12 w-full">
             
             {/*  Image Section */}
@@ -24,6 +24,9 @@ const Allpagefront = ({heading}) => {
               <h3 className="text-blue-950 font-sans-serif-35px text-xl sm:text-2xl md:text-3xl lg:text-[48px] font-bold">
                {heading}
               </h3>
+              <p className="  w-4xl  text-lg text-gray-500">
+                {para}
+              </p>
             </div>
           </div>
         </div>

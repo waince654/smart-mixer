@@ -9,7 +9,10 @@ const page = () => {
   return (
     <div>
       <Header2 />
-      <Allpagefront heading="Fees" />
+      <Allpagefront
+        heading="Fees"
+        para="Everything about our fees and discounts"
+      />
       <Feesfile />
       <Belowfaq />
       <Footer />

@@ -157,7 +157,7 @@ export default function Footer() {
                     Home
                   </a>
                   <a
-                    href="#"
+                    href="/whymixing"
                     className="text-gray-700 hover:text-blue-400 hover:underline"
                   >
                     Start Mixing

@@ -57,7 +57,7 @@ export default function Header2() {
             </li>
             <li>
               <a
-                href="#"
+                href="/whymixing"
                 className="inline-block hover:text-indigo-600 hover:-translate-y-1 transition"
               >
                 Why Mixing
@@ -144,7 +144,7 @@ export default function Header2() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-indigo-600 transition">
+                <a href="/whymixing" className="hover:text-indigo-600 transition">
                   Why Mixing
                 </a>
               </li>
