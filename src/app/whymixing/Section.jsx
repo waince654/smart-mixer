@@ -45,7 +45,7 @@ const Section = () => {
         {/* Overlay content on image */}
         <div className=" flex flex-col items-start space-y-2">
           {/* Paragraph */}
-          <p className="text-blue-300 absolute top-4 left-34 text-sm sm:text-base font-bold drop-shadow-md">
+          <p className="text-blue-300 absolute top-4 left-2 lg:left-34 text-sm sm:text-base font-bold drop-shadow-md">
             Without Mixing
           </p>
 
