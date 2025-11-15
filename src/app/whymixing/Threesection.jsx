@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Threesection = () => {
+const Threesection = ({heading}) => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="mt-20 sm:mt-16 lg:mt-0 w-full max-w-5xl mx-auto">
         <div className="px-4 sm:px-8 lg:px-16 py-8 md:py-12">
 
@@ -23,7 +23,7 @@ const Threesection = () => {
             <h3 className="text-blue-950 mt-6 font-sans-serif-25px 
               text-lg sm:text-2xl md:text-3xl lg:text-[42px] 
               font-bold leading-snug">
-              Your Cryptos will go through a process with 3 Steps
+              {heading}
             </h3>
           </div>
 

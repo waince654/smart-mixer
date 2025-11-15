@@ -66,40 +66,13 @@ const Section = () => {
             </button>
 
             {/* Click here text + arrow with animation */}
-            <div
-              className="flex items-center space-x-1 "
-              style={{
-                animation: "shake 0.8s infinite",
-              }}
-            >
+            <div className="flex items-center space-x-1 animate-shake">
               <ArrowLeft size={20} className="text-blue-300 " />
               <span className=" text-blue-600 text-md">Click here</span>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Animation CSS */}
-      <style jsx>{`
-        @keyframes shake {
-          0%,
-          100% {
-            transform: translateX(0);
-          }
-          25% {
-            transform: translateX(-2px);
-          }
-          50% {
-            transform: translateX(2px);
-          }
-          75% {
-            transform: translateX(-2px);
-          }
-        }
-        .animate-shake {
-          animation: shake 0.8s infinite;
-        }
-      `}</style>
     </div>
   );
 };

@@ -15,7 +15,7 @@ const Step1 = () => {
 
         {/* H5 Heading */}
         <div className="mb-4 text-center">
-          <h5 className="text-xl sm:text-2xl font-semibold text-blue-950">
+          <h5 className="text-xl sm:text-2xl font-semibold text-gray-300">
             Assigning coins to a Pool
           </h5>
         </div>
