@@ -12,9 +12,9 @@ const Allpagefront = ({ heading, para }) => {
               <Image
                 src="/lines.svg"
                 alt="lines"
-                width={20} // ← bohot choti width
-                height={20} // ← bohot choti height
-                className="w-15 h-auto" // ← tailwind size bhi chhota
+                width={20}
+                height={20} 
+                className="w-15 h-auto"
               />
             </div>
 

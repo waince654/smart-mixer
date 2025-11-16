@@ -79,7 +79,7 @@ export default function Sceneriosection() {
       </div>
 
       <section className="max-w-6xl mx-auto px-4 py-10">
-        {/* Main Scenario (logo + text) */}
+        {/* Main Scenario  */}
         <div className="relative overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.div

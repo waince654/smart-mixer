@@ -33,7 +33,7 @@ const Section = () => {
 
       {/* RIGHT SIDE */}
       <div className="relative flex items-center justify-end md:w-2/3 w-full">
-        {/* Large Image (Background-like) */}
+        {/* Large Image */}
         <Image
           src="/why-mixing1.png"
           alt="Main"

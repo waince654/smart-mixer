@@ -145,7 +145,7 @@ export default function Footer() {
             {/* Footer Section navbar menu */}
             <div className="  mt-10 flex flex-col gap-5">
               <div className="bg-amber-50 max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center md:items-start md:justify-between gap-12 px-4 md:px-8 pb-0">
-                {/* Left: navigation (5 menu items) */}
+                {/* Left: navigation */}
                 <nav
                   className="flex flex-wrap justify-start  mt-7 gap-2 md:gap-8 text-sm md:text-base w-full md:w-auto"
                   aria-label="Footer navigation"
@@ -182,7 +182,7 @@ export default function Footer() {
                   </a>
                 </nav>
 
-                {/* Right: short paragraph (1 line, 3-4 words) + 2 images */}
+                {/* Right: short paragraph */}
                 <div className="flex flex-col sm:flex-row items-center justify-center md:justify-end gap-4 md:gap-8 text-center md:text-right mt-7">
                   <p className="text-gray-500 text-sm md:text-base whitespace-nowrap">
                     SmartMixer App <span className="bg-pink-600 text-white font-semibold">  Soon  </span>

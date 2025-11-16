@@ -3,9 +3,8 @@ import Threesection from "./Threesection";
 
 export default function Protect() {
   return (
-    <>
+    <>    
       {/* what is smart mixer */}
-
       <Threesection heading="How does Mixing protect me ?" />
       <div className="md:max-w-6xl h-auto mx-auto">
         <p className="mt-2  mx-auto   bg-white max-w-5xl text-center p-2 text-gray-600 text-sm  md:text-lg leading-relaxed">

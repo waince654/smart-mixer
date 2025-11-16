@@ -7,7 +7,7 @@ const Howtomix = () => {
     <>
       {/* line image */}
       <Threesection heading="How to Mix with SmartMixer?" />
-      {/* HOw to mix smart mix */}
+      {/* How to mix smart mix */}
       <div className="w-full mx-auto  flex flex-col md:flex-row items-center md:items-start gap-10 p-6">
         {/* LEFT DIV */}
         <div
@@ -80,14 +80,20 @@ const Howtomix = () => {
           </ul>
         </div>
       </div>
-        {/* button mix my cripto */}
-          
-                <div className="flex justify-center mt-8 items-center min-h-[18vh]">
-              <Link href="/#">  <button className=" flex lg:px-16 py-1 lg:py-3 gap-9 text-xl font-bold text-white bg-cyan-300 rounded-2xl hover:-translate-y-2 transition-all duration-300 shadow-md active:scale-95 sm:px-20 sm:py-4">
-               
-                Mix My Cryptos   <span className="mt-2"> <PiGreaterThanBold /></span>
-              </button></Link>
-              </div>
+      {/* button mix my cripto */}
+
+      <div className="flex justify-center mt-8 items-center min-h-[18vh]">
+        <Link href="/#">
+          {" "}
+          <button className=" flex lg:px-16 py-1 lg:py-3 gap-9 text-xl font-bold text-white bg-cyan-300 rounded-2xl hover:-translate-y-2 transition-all duration-300 shadow-md active:scale-95 sm:px-20 sm:py-4">
+            Mix My Cryptos{" "}
+            <span className="mt-2">
+              {" "}
+              <PiGreaterThanBold />
+            </span>
+          </button>
+        </Link>
+      </div>
     </>
   );
 };

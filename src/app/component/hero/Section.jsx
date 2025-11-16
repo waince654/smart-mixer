@@ -26,7 +26,7 @@ const Section = () => {
             <div className="p-2 md:p-4">
               <section className="flex justify-center items-start">
                 <div className="w-full max-w-3xl">
-                  {/* Responsive embed: 16:9 on small screens, taller on md+ */}
+                  {/* Responsive video */}
                   <div className="relative pt-[56.25%] md:pt-[102%] overflow-hidden rounded-2xl shadow-2xl">
                     <iframe
                       className="absolute inset-0 w-full h-full"
