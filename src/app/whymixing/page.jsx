@@ -9,6 +9,10 @@ import Step3 from "./Step3";
 import Smartcode from "./Smart-code";
 import Howtomix from "./Howtomix"
 import Protect from "./Protect";
+import Privacy from "./Privacy";
+import Belowfaq from "../component/hero/Below-faq";
+import Footer from "../component/Footer"; 
+
 
 const page = () => {
   return (
@@ -27,6 +31,9 @@ const page = () => {
       <Smartcode/>
      <Howtomix/>
      <Protect/>
+     <Privacy/>
+     <Belowfaq/>
+     <Footer/>
       </div>
     </>
   );

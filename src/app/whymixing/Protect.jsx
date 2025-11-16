@@ -4,16 +4,6 @@ import Threesection from "./Threesection";
 export default function Protect() {
   return (
     <>
-      {/* line image */}
-      <div className="max-w-6xl mx-auto mt-10">
-        <div className="w-full overflow-hidden hidden sm:block  ">
-          <img
-            src="/break-line.png"
-            alt="Break Line"
-            className="w-full brightness-60 h-auto object-cover md:h-[180px]"
-          />
-        </div>
-      </div>
       {/* what is smart mixer */}
 
       <Threesection heading="How does Mixing protect me ?" />
@@ -27,11 +17,13 @@ export default function Protect() {
           your finances.
         </p>
         <p className="mt-2 mx-auto bg-white max-w-5xl text-center p-2 text-gray-600 text-sm  md:text-lg leading-relaxed">
-          <span className="text-gray-300">Now ask yourself:</span> Would you be happy about letting random people know
-          your statement of account and its actual balance?
+          <span className="text-gray-300">Now ask yourself:</span> Would you be
+          happy about letting random people know your statement of account and
+          its actual balance?
         </p>
-                <h5 className="mt-2 mx-auto bg-white max-w-5xl font-bold  text-center p-2 text-blue-900 text-xl  md:text-lg leading-relaxed">Mixing protects your identity when you…</h5>
-        
+        <h5 className="mt-2 mx-auto bg-white max-w-5xl font-bold  text-center p-2 text-blue-900 text-xl  md:text-lg leading-relaxed">
+          Mixing protects your identity when you…
+        </h5>
       </div>
       {/* 5 items grid */}
       <div className="max-w-5xl mx-auto py-10">
