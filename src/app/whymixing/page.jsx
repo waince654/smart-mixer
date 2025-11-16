@@ -7,6 +7,7 @@ import Step1 from "./Step1";
 import Step2 from "./Step2"
 import Step3 from "./Step3";
 import Smartcode from "./Smart-code";
+import Howtomix from "./Howtomix"
 
 const page = () => {
   return (
@@ -23,6 +24,7 @@ const page = () => {
       <Step2/>
       <Step3/>
       <Smartcode/>
+     <Howtomix/>
       </div>
     </>
   );
