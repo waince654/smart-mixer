@@ -1,5 +1,7 @@
 import React from "react";
 import Threesection from "./Threesection";
+import Link from "next/link";
+import { PiGreaterThanBold } from "react-icons/pi";
 const Howtomix = () => {
   return (
     <>
@@ -78,6 +80,14 @@ const Howtomix = () => {
           </ul>
         </div>
       </div>
+        {/* button mix my cripto */}
+          
+                <div className="flex justify-center mt-8 items-center min-h-[18vh]">
+              <Link href="/#">  <button className=" flex lg:px-16 py-1 lg:py-3 gap-9 text-xl font-bold text-white bg-cyan-300 rounded-2xl hover:-translate-y-2 transition-all duration-300 shadow-md active:scale-95 sm:px-20 sm:py-4">
+               
+                Mix My Cryptos   <span className="mt-2"> <PiGreaterThanBold /></span>
+              </button></Link>
+              </div>
     </>
   );
 };
